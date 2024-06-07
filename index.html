@@ -10,18 +10,18 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Avanish Garg</div>
+      <div class="logo" onclick="location.href='index.html'">Avanish Garg</div>
       <div>
         <ul class="nav-links">
           <li><a href="index.html#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Avanish Garg</div>
+      <div class="logo" onclick="location.href='index.html'">Avanish Garg</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -30,9 +30,9 @@
         </div>
         <div class="menu-links">
           <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -273,94 +273,77 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/projects/project-1.png"
-                alt="Project 1"
+                src="./assets/projects/QuantumQube.png"
+                alt="QuantumQube"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">QuantumQube</h2>
             <div class="text-container">
-              <p>
-                A passionate software engineer with a strong background in deep learning and computer vision, 
-                I enjoy solving complex problems and creating innovative solutions using the latest technologies. 
-        
+              <p class="project-desc">
+                QuantumQube is A data-driven model for precise predictions of stock price movements relative to 
+                a composite index using advanced analytics and machine learning.
             </div>
+            <div class="text-container"><br></div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://github.com/avanishgarg/QuantumQube', '_blank')"
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="text-container">
-              <p>
-                A passionate software engineer with a strong background in deep learning and computer vision, 
-                I enjoy solving complex problems and creating innovative solutions using the latest technologies. 
-        
-            </div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="text-container">
-              <p>
-                A passionate software engineer with a strong background in deep learning and computer vision, 
-                I enjoy solving complex problems and creating innovative solutions using the latest technologies. 
-            </div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-
           
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/projects/SignLearn.png"
+                alt="SignLearn"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">SignLearn</h2>
+            <div class="text-container">
+              <p class="project-desc">
+                SignLearn is a deep learning-based project designed to help users 
+                learn and practice sign language by detecting and identifying sign actions in real-time.
+            </div>
+            <div class="text-container"><br></div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/avanishgarg/SignLearn', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/projects/SuppyMan.png"
+                alt="Suppy Man"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Suppy Man</h2>
+            <div class="text-container">
+              <p class="project-desc">
+                SuppyMan is a revamped version of Flappy Bird, featuring Superman and innovative interaction techniques using head and fist 
+                movements for a more immersive gaming experience. 
+            </div>
+            <div class="text-container"><br></div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/avanishgarg/SuppyMan', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -376,7 +359,7 @@
             class="icon contact-icon email-icon"
           />
           <p><a href="mailto:avanishg1309@gmail.com">Email</a></p>
-        </div>
+        </div><p></p>
         <div class="contact-info-container">
           <img
             src="./assets/linkedin.png"

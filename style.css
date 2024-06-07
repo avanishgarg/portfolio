@@ -181,8 +181,6 @@ section {
   border-radius: 8rem;
 }
 
-
-
 .section__text {
   align-self: center;
   text-align: center;
@@ -190,6 +188,7 @@ section {
 
 .section__text p {
   font-weight: 600;
+  
 }
 
 .section__text__p1 {
@@ -365,6 +364,10 @@ article .icon {
 #projects {
   position: relative;
 }
+
+/* .project-desc{
+  display: wrap;
+} */
 
 .color-container {
   border-color: rgb(163, 163, 163);
