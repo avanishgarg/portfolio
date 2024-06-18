@@ -390,6 +390,12 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.project-btn-container  {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
 /* CONTACT */
 
 #contact {
