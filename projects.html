@@ -1,185 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avanish's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body >
-    <nav id="desktop-nav">
-      <div class="logo" onclick="location.href='index.html'">Avanish Garg</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#experience">Experience</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avanish's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo" onclick="location.href='index.html'">Avanish Garg</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo" onclick="location.href='index.html'">Avanish Garg</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo" onclick="location.href='index.html'">Avanish Garg</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+      <div class="menu-links">
+        <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="projects">
+    <h1 class="title">Projects</h1>
+
+    <!-- Row 1 -->
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/projects/QuantumQube.png" alt="QuantumQube" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">QuantumQube</h2>
+          <div class="text-container">
+            <p class="project-desc">
+              QuantumQube is a data-driven model for precise predictions of stock price movements relative to a composite index using advanced analytics and machine learning.
+          </div>
+          <div class="text-container"><br></div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/avanishgarg/QuantumQube', '_blank')">
+              Github
+            </button>
+          </div>
         </div>
-        <div class="menu-links">
-          <li><a href="index.htmlindex.html#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/projects/SignLearn.png" alt="SignLearn" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">SignLearn</h2>
+          <div class="text-container">
+            <p class="project-desc">
+              SignLearn is a deep learning-based project designed to help users learn and practice sign language by detecting and identifying sign actions in real-time.
+          </div>
+          <div class="text-container"><br></div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/avanishgarg/SignLearn', '_blank')">
+              Github
+            </button>
+          </div>
+        </div>
+        
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/projects/SuppyMan.png" alt="Suppy Man" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Suppy Man</h2>
+          <div class="text-container">
+            <p class="project-desc">
+              SuppyMan is a revamped version of Flappy Bird, featuring Superman and innovative interaction techniques using head and fist movements for a more immersive gaming experience.
+          </div>
+          <div class="text-container"><br></div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/avanishgarg/SuppyMan', '_blank')">
+              Github
+            </button>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/projects/Pyretro.png" alt="Pyretro" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">PyRetro</h2>
+          <div class="text-container">
+            <p class="project-desc">
+              Py-Retro: The Old School Edition is a Python application offering a collection of classic retro games for nostalgic and old-school gaming enthusiasts.
+          </div>
+          <div class="text-container"><br></div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/avanishgarg/PyRetro', '_blank')">
+              Github
+            </button>
+          </div>
+        </div>
+        
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/projects/MovieSeriesInfoBot.png" alt="MovieSeriesInfoBot" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">MovieSeriesInfoBot</h2>
+          <div class="text-container">
+            <p class="project-desc">
+              Telegram bot that provides detailed information about movies and TV series, leveraging the OMDB API for ratings, plot summaries, cast details, and more.
+          </div>
+          <div class="text-container"><br></div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/avanishgarg/MovieSeriesInfoBot', '_blank')">
+              Github
+            </button>
+          </div>
+        </div>
+        
+        <div class="details-container color-container">
+          <!-- Add your Credly badge here -->
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6694acb5-3760-4db5-ab44-a1492ec1b698" data-share-badge-host="https://www.credly.com"></div>
+          <script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+        </div>
+      </div>
+    </div>
     
-    <section id="projects">
-      <h1 class="title">Projects</h1>
-
-      <!-- Row 1 -->
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/QuantumQube.png"
-                alt="QuantumQube"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">QuantumQube</h2>
-            <div class="text-container">
-              <p class="project-desc">
-                QuantumQube is A data-driven model for precise predictions of stock price movements relative to 
-                a composite index using advanced analytics and machine learning.
-            </div>
-            <div class="text-container"><br></div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/avanishgarg/QuantumQube', '_blank')"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          
-          
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/SignLearn.png"
-                alt="SignLearn"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">SignLearn</h2>
-            <div class="text-container">
-              <p class="project-desc">
-                SignLearn is a deep learning-based project designed to help users 
-                learn and practice sign language by detecting and identifying sign actions in real-time.
-            </div>
-            <div class="text-container"><br></div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/avanishgarg/SignLearn', '_blank')"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/SuppyMan.png"
-                alt="Suppy Man"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Suppy Man</h2>
-            <div class="text-container">
-              <p class="project-desc">
-                SuppyMan is a revamped version of Flappy Bird, featuring Superman and innovative interaction techniques using head and fist 
-                movements for a more immersive gaming experience. 
-            </div>
-            <div class="text-container"><br></div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/avanishgarg/SuppyMan', '_blank')"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Row 2 -->
-
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/Pyretro.png"
-                alt="Pyretro"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">PyRetro</h2>
-            <div class="text-container">
-              <p class="project-desc">
-                Py-Retro: The Old School Edition is a Python application offering a 
-                collection of classic retro games for nostalgic and old-school gaming enthusiasts.
-            </div>
-            <div class="text-container"><br></div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/avanishgarg/PyRetro', '_blank')"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          
-          
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/MovieSeriesInfoBot.png"
-                alt="MovieSeriesInfoBot"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">MovieSeriesInfoBot</h2>
-            <div class="text-container">
-              <p class="project-desc">
-                Telegram bot that provides detailed information about movies and TV series, 
-                leveraging the OMDB API for ratings, plot summaries, cast details, and more.
-            </div>
-            <div class="text-container"><br></div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/avanishgarg/MovieSeriesInfoBot', '_blank')"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            
-        </div>
-      </div>
-      
-    </section>
+  </section>
 </body>
 </html>
-
